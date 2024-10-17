@@ -1,0 +1,361 @@
+  *{
+    margin: 0;
+     padding: 0; 
+      box-sizing: border-box;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;/ */
+   grid-template-rows: 1fr auto; 
+    grid-template-areas:
+      "item1 item1 item2 item2"
+      "item3 item4 item4 item5"
+      "item6 item7 item7 item5"
+      "item8 item9 item10 item10";
+  }
+                 /* start IPHONE 6S */
+  .item1 { 
+    grid-area: item1;
+   background-color: #FFFFFF; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.item1 .left-1{
+  /* background-color: aqua; */
+  text-align: center;
+   padding-left: 10px;
+   margin-left: 5px;
+  }
+.item1 .left-1 h5{
+  color: #B7C5D0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.item1 .left-1 h3{
+  color: #333333;
+  margin: 0px;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "Arvo", serif;
+}
+.item1 .left-1 p{
+  font-size:14px ;
+  color: #B5B8BB;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26px;
+
+}
+.item1 .rigth-1{
+     /* background-color: brown; */
+  margin-top: 10px;
+}
+   /* end IPHONE 6S */
+                    /* start LEARN MORE  */
+  .item2 { grid-area: item2;
+  background-color:#F7F8F9;
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center; }
+.item2  h1{
+   /* background-color: chocolate; */
+  font-size: 48px;
+  font-family: "Arvo", serif;
+      font-weight: 400;
+      font-style: normal;
+}
+.item2  h5{
+  color: #B3B7BA;
+  /* background-color: brown; */
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+                /* end LEARN MORE  */
+
+              /* start Keyboard  */
+  
+  .item3 { grid-area: item3;
+  background-color: #F05638;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.item3 h3{
+  text-align: center;
+  color: white;
+  font-size: 22px; 
+  font-weight: 700;
+  font-family: "Arvo", serif;
+  font-style: normal;
+}
+.item3  a{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+color: #FFC80A;
+}
+                   /* end Keyboard  */
+
+
+  .item4 { grid-area: item4;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+  align-items: flex-start;
+   }
+   .item4 .left-4  h3{
+    text-align: center;
+    font-size: 24px;
+    font-family:"Arvo", serif;
+    color: #333333;
+   }
+   .item4 .left-4  h5{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    color: #A2A6AA;
+   }
+   .item4 .left-4 img{
+    transform: translate(-30%);
+    padding: 20px 0 20px 0;
+   }
+   .item4 .right-4{
+    /* background-color: crimson;  */
+    margin-top: 30px;
+  display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    justify-content: space-around 
+   }
+
+   .item4 .right-4 P{
+    /* background-color: #FFC80A; */
+     font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      font-family:"Montserrat", sans-serif;
+     color: #9FA3A7;
+     
+   }
+   .item4 .right-4 a{
+    /* background-color: blueviolet; */
+    color: #27C8DC;
+    text-decoration: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-decoration: none;
+    margin-top: 10px; 
+    padding: 3px 3px 3px 3px;
+ 
+   }
+                   /* end IMAC.RETINA  */
+
+
+                   /* start iCloud  */
+                   
+  .item5 { grid-area: item5;
+  background-color: #8F76BC;
+   display: flex;
+  flex-direction: column;
+justify-self: center;
+  align-items: center; 
+}
+.item5 .coler-grouen{
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  background-color:  #8166B0 ;
+/* 
+  background-color: brown; */
+}
+.item5 .button-contan {
+  background-color: #8F76BC;   
+  font-size: 20px;
+  border-color: #8F76BC;
+ border-radius: 20px 20px 20px 20px;
+   margin-top: 20px;
+   padding:10px 20px 10px 20px ; 
+  margin-bottom: 10px;
+  transform: translate(100% ,-20%);
+}
+.item5 img{
+ transform: translate(25% ,-5%);
+  vertical-align: middle;
+  display: inline-block;
+   /* background-color: #7BC424; */
+}
+.item5 .coler-grouen .texes h4{
+  color: #FFFFFF;
+  margin: 0;
+   /* background-color: #38D5F4; */
+   font-size: 12px;
+   font-family: "Montserrat", sans-serif;
+   text-align: center;
+}
+.item5 .coler-grouen h2{
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  /* background-color: #F05638; */
+  text-align: center;
+}
+.item5 .coler-grouen p{
+  color: #FFF6EE;
+  /* background-color: burlywood; */
+  text-align: center;
+}
+.item5 .coler-grouen .button-last{
+  background-color: #FFC80A;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+text-align: center;
+transform: translate(90% ,-20%);
+  color: #000000;
+  border-radius: 20px 20px 20px 20px;
+  border-color: #FFC80A;
+margin-left: 20px;
+padding: 2px 15px 2px 15px;
+margin-top: 20px;
+margin-right: 20px;
+}
+                     /* endiCloud  */
+                 /* start Games ourpasion    .item6 */
+  .item6 { grid-area: item6;
+    background-color: #F7F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .item6 h3{
+    margin-bottom: 20px;
+    text-align: center;
+   color: #333333;
+    font-size: 22px; 
+    font-weight: 700;
+    font-family: "Arvo", serif;
+  }
+  .item6 a{
+    margin-top: 20px;
+    display: flex;
+  align-items: center; 
+  justify-content: center; 
+    font-family: "Montserrat", sans-serif;
+  color: #27B9C2;
+  margin-bottom: 20px;
+  text-decoration: none;
+  }
+                      /* end Games ourpasion    .item6 */
+
+                    /* start Much MuchBetter Experience   item7 */
+  .item7 { grid-area: item7;
+background-color: #93B6B7;
+   }
+   .item7 .coler-button{ 
+    color: #E9FAFD;
+    background-color:#FA684F ;
+    border-radius: 7px 7px 7px 7px;
+    border-color:#FA684F;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+   } 
+   .item7 h3{ 
+    margin-bottom: 30ppx;
+     text-align: center;
+     color: #FFFFFF;
+    font-family: "Arvo", serif;
+/* margin-bottom: 3px; */
+   }
+   .item7  img{
+     margin-top: 25px;
+   }
+                 /* end Much MuchBetter Experience  */
+
+                 /* start  Connect with Twitter   item8 */
+  .item8 { grid-area: item8; 
+  background-color: #38D5F4;
+}
+ .item8 h3{ 
+  padding: 10px;
+  text-align: center;
+  color: #E9FAFD;
+  font-size: 20px;
+   font-weight: 400;
+   font-family: "Arvo", serif;
+ }
+ .item8 .Twitter{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 90px;
+                                 /* circle shap   */
+background: radial-gradient(circle, rgba(53,207,237,0.9) 60%, rgba(62,200,207,0.7) 50%);
+}
+                  /* end Connect with Twitter  */
+
+                /* start Much MuchBetter Experience  item9  */
+  .item9 { grid-area: item9;
+  background-color: #F7F8F9;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; }
+
+.item9 .button-coler{
+  color: #FFFFFF;
+  margin-bottom: 10px;
+background-color: #7BC424;
+border-radius: 7px 7px 7px 7px;
+border-color: #7BC424;
+}
+.item9 h3{ 
+  color:#333333 ;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Arvo", serif;
+}
+                    /* end Much MuchBetter Experience */
+
+                    /* start More than just a display,  it’s a vision  */
+  .item10 {
+     grid-area: item10;
+  background-color: #2C2C2C;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .item10 h3{ 
+  color: #EAEAEA;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: "Arvo", serif;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+ }
+                 /* end More than just a display,  it’s a vision  */ 
